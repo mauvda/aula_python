@@ -9,6 +9,10 @@ def formula(raio):
 
 
 if __name__ == '__main__':
-    raio = sys.argv[1]
-    area = formula(raio)
-    print('Se o raio é', raio, 'entao a area é', "%.2f" % area)
+    if len(sys.argv) < 2:
+        print('É necessário informar o Raio do circulo',
+              '\nSintaxe: python', sys.argv[0], '<Raio>')
+    else:
+        raio = sys.argv[1]
+        area = formula(raio)
+        print('Se o raio é', raio, 'entao a area é', "%.2f" % area)
