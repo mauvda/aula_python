@@ -2,9 +2,12 @@
 # from math import pi
 import math
 
-raio = input('Informe o raio: ')
-formula = math.pi*float(raio)**2
+
+def formula(raio):
+    return math.pi*float(raio)**2
+
+
 if __name__ == '__main__':
-    print('Se o Raio e igual a', raio,
-          '\nEntao a area total',
-          'do circulo e igual a', "%.2f" % formula)
+    raio = input('Informe o raio: ')
+    area = formula(raio)
+    print('Se o raio é', raio, 'entao a area é', "%.2f" % area)
