@@ -4,4 +4,4 @@ raio = 25
 formula = pi*raio**2
 print('Se o Raio e igual a', raio,
       '\nEntao a area total',
-      'do circulo e igual a', formula)
+      'do circulo e igual a', "%.2f" % formula)
