@@ -1,3 +1,4 @@
+#! python
 # Iniciando os Projetos do Curso de python na udemy
 pi = 3.1415
 raio = 25
