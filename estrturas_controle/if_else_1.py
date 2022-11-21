@@ -47,5 +47,3 @@ if __name__ == '__main__':
     if nota >= 0 and nota <= 1:
         print('Conceito E-')
         sys.exit()
-
-print('erro')
