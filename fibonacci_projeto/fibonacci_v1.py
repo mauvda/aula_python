@@ -17,4 +17,4 @@ def fibonacci(limite):
         # ultimo = proximo
 
 
-fibonacci(100000000)
+fibonacci(1000000000000)
