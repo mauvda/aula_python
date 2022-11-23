@@ -9,7 +9,7 @@ textos = ['Joao gosta de futebol e politica',
 for texto in textos:
     for palavra in texto.lower().split():
         if palavra in PLAVRAS_PROIBIDAS:
-            print('Texto possoi palavras proibidas', palavra)
+            print('Texto possui palavras proibidas', palavra)
             break
     else:
         print('Texto autorizado:', texto)
