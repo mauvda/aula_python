@@ -7,10 +7,14 @@ def fibonacci(limite):
     ultimo = 1
     print(f'{penultimo}, {ultimo}', end=', ')
     while ultimo < limite:
-        proximo = penultimo + ultimo
-        print(f'{proximo}', end=', ')
-        penultimo = ultimo
-        ultimo = proximo
+        # Versao otimizada
+        penultimo, ultimo = ultimo, penultimo + ultimo
+        print(f'{ultimo}', end=', ')
+        # Versao antiga
+        # proximo = penultimo + ultimo
+        # print(f'{proximo}', end=', ')
+        # penultimo = ultimo
+        # ultimo = proximo
 
 
 fibonacci(100000000)
