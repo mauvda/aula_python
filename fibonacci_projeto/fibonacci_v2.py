@@ -2,14 +2,16 @@
 
 
 # 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
-def fibonacci(limite):
+def fibonacci(quantidade):
     resultado = [0, 1]
-    while resultado[-1] < limite:
-        # resultado.append(resultado[-1] + resultado[-2])
+    while True:
         resultado.append(sum(resultado[-2:]))
+        if len(resultado) == quantidade:
+            break
     return resultado
 
 
 if __name__ == '__main__':
-    for fib in fibonacci(1000000000000000000000000):
+    # Listar os 301 primeiros numeros da sequencia de fibonacci
+    for fib in fibonacci(301):
         print(fib, end=', ')
