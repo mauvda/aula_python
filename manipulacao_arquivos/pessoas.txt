@@ -1,0 +1,6 @@
+Nome: mauricio, Idade 26
+Nome: carol, Idade 24
+Nome: fabio, Idade 14
+Nome: carla, Idade 30
+Nome: tulio, Idade 60
+Nome: brenda, Idade 20
