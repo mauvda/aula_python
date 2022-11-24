@@ -5,5 +5,5 @@ with open('pessoas.csv') as arquivo:
             pessoa = run.strip().split(',')
             print('Nome: {}, Idade {}'.format(*pessoa), file=saida)
 
-if arquivo.closed:
+if arquivo.closed and saida.close:
     print('Arquivos foi fechado')
