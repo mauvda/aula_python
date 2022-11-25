@@ -1,5 +1,4 @@
 #! python
-# - * - Coding : ISO-8859-1 - * -
 import csv
 
 try:
